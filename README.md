@@ -21,7 +21,7 @@ Steps to build the lab:
 All screenshots are stored in the `AD_Screenshots` folder.
 
 ### Users
-![AD Users](AD_Screenshots/AD_users.png)
+![AD Users](AD_Screenshots/AD_Users.png)
 
 ### Groups
 [AD Groups](AD_Screenshots/https://github.com/GeorgeW-IT/ActiveDirectory/blob/main/AD_Screenshots)
