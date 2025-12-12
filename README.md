@@ -27,6 +27,7 @@ All screenshots are stored in the `AD_Screenshots` folder.
 [AD Groups](AD_Screenshots/)
 
 ### Group Policies
+In this first GPO i created a password policy where users must follow a certain set of requirements for thier password
 ![AD GPO](AD_Screenshots/Group_Policy_Password.png)
 
 ### Domain Structure
