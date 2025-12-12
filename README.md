@@ -24,7 +24,7 @@ All screenshots are stored in the `AD_Screenshots` folder.
 ![AD Users]()
 
 ### Groups
-![AD Groups](AD_Screenshots/AD_Groups.png)
+![AD Groups](https://github.com/GeorgeW-IT/ActiveDirectory/blob/main/AD_Screenshots)
 
 ### Group Policies
 ![AD GPO](AD_Screenshots/AD_GPO.png)
