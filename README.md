@@ -24,13 +24,13 @@ All screenshots are stored in the `AD_Screenshots` folder.
 ![AD Users](AD_Screenshots/AD_Users.png)
 
 ### Groups
-[AD Groups](AD_Screenshots/https://github.com/GeorgeW-IT/ActiveDirectory/blob/main/AD_Screenshots)
+[AD Groups](AD_Screenshots/)
 
 ### Group Policies
-![AD GPO](AD_Screenshots/AD_GPO.png)
+![AD GPO](AD_Screenshots/Group_Policy_Password.png)
 
 ### Domain Structure
-![AD Domain](AD_Screenshots/AD_Domain.png)
+![AD Domain](AD_Screenshots/)
 
 ## Scripts (Optional)
 Any scripts used to automate setup can be found in the `Scripts` folder. Example:
