@@ -1,56 +1,45 @@
-# Active Directory Lab on Azure
+# Active Directory on Azure
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+## Overview
+This project demonstrates an Active Directory lab setup on Azure. It includes configuring domain services, creating users and groups, and applying Group Policy Objects (GPOs) to simulate a small network environment.
 
----
+## Technologies Used
+- Azure Virtual Machines
+- Windows Server
+- Active Directory Domain Services (AD DS)
+- PowerShell (basic scripts)
 
-## 📖 Project Overview
-This project demonstrates my hands-on experience with **Active Directory (AD)** by building a lab environment on **Microsoft Azure VMs**.  
-It covers the setup of domain services, users, groups, and applying **Group Policies (GPOs)**.  
+## Lab Setup
+Steps to build the lab:
+1. Deployed an Azure Virtual Machine with Windows Server.
+2. Installed Active Directory Domain Services.
+3. Configured domain users and groups.
+4. Created and applied Group Policy Objects (GPOs).
+5. Verified domain functionality and connectivity.
 
-The lab simulates a small corporate environment, allowing testing of AD concepts in a safe, isolated environment.
+## Screenshots
+All screenshots are stored in the `AD_Screenshots` folder.
 
----
+### Users
+![AD Users](AD_Screenshots/AD_Users.png)
 
-## 🛠️ Technologies Used
-- **Azure Cloud** – Virtual Machines, Networking  
-- **Windows Server** – Active Directory Domain Services (AD DS)  
-- **Active Directory** – Users, Groups, Organizational Units (OUs), GPOs  
-- **DNS & DHCP** – Basic network services  
-- **PowerShell** – Automation & AD configuration scripts  
+### Groups
+![AD Groups](AD_Screenshots/AD_Groups.png)
 
----
+### Group Policies
+![AD GPO](AD_Screenshots/AD_GPO.png)
 
-## 🔧 Lab Setup
-1. Created **Azure Virtual Network** and subnets for lab environment.  
-2. Deployed **Windows Server VMs** for Domain Controller and client machines.  
-3. Installed and configured **Active Directory Domain Services**.  
-4. Created **Users, Groups, and OUs** to simulate company structure.  
-5. Applied **Group Policies** for security and login management.  
-6. Tested **client machines joining the domain** and GPO application.  
+### Domain Structure
+![AD Domain](AD_Screenshots/AD_Domain.png)
 
-> *Optional:* Include screenshots of Active Directory Users & Computers, GPO Editor, or Azure VM dashboard.
+## Scripts (Optional)
+Any scripts used to automate setup can be found in the `Scripts` folder. Example:
+- `Create_AD_Users.ps1` – PowerShell script to create domain users
 
----
+## Lessons Learned / Notes
+- Gained practical experience with Active Directory domain setup on Azure.
+- Learned to configure users, groups, and GPOs effectively.
+- Improved understanding of basic networking and system administration.
 
-## ✅ Skills Demonstrated
-- Deploying and managing Azure VMs  
-- Installing and configuring Active Directory Domain Services  
-- Creating and managing AD Users, Groups, and OUs  
-- Applying Group Policies for security and user management  
-- Basic network service configuration (DNS/DHCP)  
-- Using PowerShell for AD management  
-
----
-
-## 📸 Screenshots / Demo
-> *Replace with actual screenshots of your lab setup:*  
-
-![AD Users](screenshots/ad-users.png)  
-![GPO](screenshots/gpo.png)  
-![Azure VMs](screenshots/azure-vms.png)
-
----
-
-## 📂 Repository Structure
+## Project Links
+- GitHub Repository: [Link to repo]
