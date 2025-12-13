@@ -19,7 +19,7 @@ Steps to build the lab:
 5. Verified domain functionality and connectivity.
 
 ## Screenshots
-All screenshots are stored in the `AD_Screenshots` folder.
+All screenshots are stored in the [AD_Screenshots](AD_Screenshots) folder.
 
 ### Users
 
