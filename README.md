@@ -1,7 +1,8 @@
 # Active Directory on Azure
 
-## Overview
-This project demonstrates an Active Directory lab setup on Azure. It includes configuring domain services, creating users and groups, and applying Group Policy Objects (GPOs) to simulate a small network environment.
+## Project Overview
+
+Deployed and configured a Windows Server Active Directory environment on Azure to demonstrate enterprise identity and access management skills. This lab simulates a small business network with organizational structure, user management, security groups, and Group Policy enforcement.
 
 ## Technologies Used
 - Azure Virtual Machines
@@ -77,4 +78,9 @@ Active Directory domain structure showing OU hierarchy and user organization.
 - Gained practical experience with Active Directory domain setup on Azure.
 - Learned to configure users, groups, and GPOs effectively.
 - Improved understanding of basic networking and system administration.
+
+
+
+
+
 
