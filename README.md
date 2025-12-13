@@ -49,6 +49,12 @@ essential in larger environments with hundreds or thousands of objects.
 
 ![Find an existing user](AD_Screenshots/Find_Users.png)
 
+This screenshot shows how to reset a user’s password in Active Directory, a
+common task for helpdesk and IT support to maintain account security and
+access.
+
+![Reset a Users Password](AD_Screenshots/password_reset.png)
+
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
 
