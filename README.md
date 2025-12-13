@@ -56,6 +56,9 @@ access.
 ![Reset a Users Password](AD_Screenshots/password_reset.png)
 
 ### Groups
+
+Custom security groups organized within the Groups OU for role-based access management.
+
 ![AD Groups](AD_Screenshots/User_Roles.png)
 
 ### Group Policies
