@@ -42,9 +42,10 @@ automation and bulk user creation in larger environments.
 
 ![Create a User](AD_Screenshots/copy_user.png)
 
-This screenshot shows the Active Directory search function used to quickly locate
-user accounts within the domain. While only a few users exist in this lab setup,
-this tool is essential in larger environments with hundreds or thousands of users.
+This screenshot shows the Active Directory search function, which can be used
+to quickly locate user accounts, computers, groups, and other objects within
+the domain. While only a few users exist in this lab setup, this tool is
+essential in larger environments with hundreds or thousands of objects.
 
 ![Find an existing user](AD_Screenshots/Find_Users.png)
 
