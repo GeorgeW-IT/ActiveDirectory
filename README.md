@@ -21,8 +21,26 @@ Steps to build the lab:
 All screenshots are stored in the `AD_Screenshots` folder.
 
 ### Users
+
+This screenshot shows the user accounts created in Active Directory and placed
+within a dedicated Users Organizational Unit (OU) to improve organisation and
+management.
+
 ![AD Users](AD_Screenshots/AD_Users.png)
-[Create a User](AD_Screenshots/copy_user.png)
+
+
+There are multiple ways to create users in Active Directory. One method is to
+create a new user directly within the appropriate Organizational Unit (OU),
+which is useful when a completely fresh user profile is required.
+
+Another common method is copying an existing user from the same department.
+This allows the new user to inherit predefined settings such as group
+memberships, ensuring the correct permissions are applied consistently.
+
+Users can also be created using PowerShell, which is typically used for
+automation and bulk user creation in larger environments.
+
+![Create a User](AD_Screenshots/copy_user.png)
 
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
