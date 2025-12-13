@@ -78,5 +78,3 @@ Active Directory domain structure showing OU hierarchy and user organization.
 - Learned to configure users, groups, and GPOs effectively.
 - Improved understanding of basic networking and system administration.
 
-## Project Links
-- GitHub Repository: [Link to repo]
