@@ -7,7 +7,7 @@ This project demonstrates an Active Directory lab setup on Azure. It includes co
 - Azure Virtual Machines
 - Windows Server
 - Active Directory Domain Services (AD DS)
-- PowerShell (basic scripts)
+- PowerShell
 
 ## Lab Setup
 Steps to build the lab:
@@ -71,9 +71,7 @@ Active Directory domain structure showing OU hierarchy and user organization.
 
 ![AD Domain](AD_Screenshots/domain_structure.png)
 
-## Scripts (Optional)
-Any scripts used to automate setup can be found in the `Scripts` folder. Example:
-- `Create_AD_Users.ps1` – PowerShell script to create domain users
+
 
 ## Lessons Learned / Notes
 - Gained practical experience with Active Directory domain setup on Azure.
