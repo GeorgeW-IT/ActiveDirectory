@@ -46,7 +46,7 @@ This screenshot shows the Active Directory search function used to quickly locat
 user accounts within the domain. While only a few users exist in this lab setup,
 this tool is essential in larger environments with hundreds or thousands of users.
 
-![Find an existing user](AD_Screenshots/find_users.png)
+![Find an existing user](AD_Screenshots/Find_Users.png)
 
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
