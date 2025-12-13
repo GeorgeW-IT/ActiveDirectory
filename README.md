@@ -73,11 +73,51 @@ Active Directory domain structure showing OU hierarchy and user organization.
 ![AD Domain](AD_Screenshots/domain_structure.png)
 
 
+## Skills Demonstrated
 
-## Lessons Learned / Notes
-- Gained practical experience with Active Directory domain setup on Azure.
-- Learned to configure users, groups, and GPOs effectively.
-- Improved understanding of basic networking and system administration.
+### Technical Skills
+- Active Directory Domain Services (AD DS) deployment and configuration
+- Azure Virtual Machine provisioning and management
+- Organizational Unit (OU) design and hierarchy implementation
+- User account lifecycle management (creation, modification, password resets)
+- Security group creation and role-based access control (RBAC)
+- Group Policy Object (GPO) configuration and enforcement
+- Password policy implementation for security compliance
+- Active Directory search and navigation for object management
+- Windows Server administration
+
+### Concepts Applied
+- Principle of least privilege through security groups
+- Role-based access control (RBAC) for permission management
+- Hierarchical organizational structure using OUs
+- Group-based policy enforcement
+- Identity and access management (IAM) best practices
+
+---
+
+## Challenges and Solutions
+
+### Challenge 1: Initial Azure VM Configuration
+**Issue:** First time deploying a Windows Server VM on Azure, unsure about optimal VM size and network settings
+
+**Solution:** Researched Azure VM sizing guidelines and selected Standard B2s (2 vCPUs, 4GB RAM) as appropriate for lab environment. Configured network security group rules to allow RDP access while maintaining security
+
+### Challenge 2: AD DS Installation and Promotion
+**Issue:** Confusion about DNS configuration during domain controller promotion process
+
+**Solution:** Followed Microsoft documentation to ensure DNS server role was properly installed alongside AD DS. Configured DNS to point to the domain controller's private IP address for proper name resolution
+
+### Challenge 3: Group Policy Not Applying
+**Issue:** Created password policy GPO but changes weren't immediately visible on test user accounts
+
+**Solution:** Learned that GPOs require time to replicate and can be forced with `gpupdate /force` command. Also discovered importance of linking GPOs to correct OUs for proper scope of application
+
+### Challenge 4: Organizing Users and Groups Efficiently
+**Issue:** Initially created users without proper OU structure, making management difficult
+
+**Solution:** Redesigned OU hierarchy to separate Users, Groups, and Computers under Office 1 OU. This improved organization and made GPO targeting much simpler
+
+---
 
 
 
