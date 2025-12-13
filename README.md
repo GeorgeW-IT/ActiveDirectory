@@ -22,7 +22,7 @@ All screenshots are stored in the `AD_Screenshots` folder.
 
 ### Users
 ![AD Users](AD_Screenshots/AD_Users.png)
-[Create a User](AD_Screenshots/copy_users.png)
+[Create a User](AD_Screenshots/copy_user.png)
 
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
