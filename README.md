@@ -69,7 +69,7 @@ In this first GPO i created a password policy where users must follow a certain 
 
 Active Directory domain structure showing OU hierarchy and user organization.
 
-![AD Domain](AD_Screenshots/)
+![AD Domain](AD_Screenshots/domain_structure.png)
 
 ## Scripts (Optional)
 Any scripts used to automate setup can be found in the `Scripts` folder. Example:
