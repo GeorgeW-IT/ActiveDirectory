@@ -40,7 +40,10 @@ memberships, ensuring the correct permissions are applied consistently.
 Users can also be created using PowerShell, which is typically used for
 automation and bulk user creation in larger environments.
 
-![Create a User](AD_Screenshots/copy_user.png)
+![Create a User](AD_Screenshots/copy_users.png)
+
+
+![Find an existing user](AD_Screenshots/find_user.png)
 
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
