@@ -66,6 +66,9 @@ In this first GPO i created a password policy where users must follow a certain 
 ![AD GPO](AD_Screenshots/Group_Policy_Password.png)
 
 ### Domain Structure
+
+Active Directory domain structure showing OU hierarchy and user organization.
+
 ![AD Domain](AD_Screenshots/)
 
 ## Scripts (Optional)
