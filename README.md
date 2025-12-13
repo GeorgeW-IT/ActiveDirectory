@@ -40,10 +40,13 @@ memberships, ensuring the correct permissions are applied consistently.
 Users can also be created using PowerShell, which is typically used for
 automation and bulk user creation in larger environments.
 
-![Create a User](AD_Screenshots/copy_users.png)
+![Create a User](AD_Screenshots/copy_user.png)
 
+This screenshot shows the Active Directory search function used to quickly locate
+user accounts within the domain. While only a few users exist in this lab setup,
+this tool is essential in larger environments with hundreds or thousands of users.
 
-![Find an existing user](AD_Screenshots/find_user.png)
+![Find an existing user](AD_Screenshots/find_users.png)
 
 ### Groups
 ![AD Groups](AD_Screenshots/User_Roles.png)
