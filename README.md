@@ -78,6 +78,7 @@ In this next Group Policy i created a screen timeout policy for users who leave 
 ### Auditing
 
 In this section i enabled auditing via GPO to track logon events and account management. Event Viewer logs demonstrate successful auditing of test user creation and deletion.
+![AD_Auditing](AD_Screenshots/Audit_Settings.png)
 
 
 ### Domain Structure
