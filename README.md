@@ -76,11 +76,20 @@ In this next Group Policy i created a screen timeout policy for users who leave 
 
 
 ### Auditing
+In this section i have setup audit settings to allow me to see what has happened in the system.
 
+This first screenshot shows me creating the test user for the audit i did
 ![AD_Auditing](AD_Screenshots/Audit_user_created.png)
+
+This second screenshot shows me deleting the user i just created
 ![AD_Auditing](AD_Screenshots/Audit_user_deleted.png)
+
+This screenshot shows the audit page where it says the user account was "enabled"
 ![AD_Auditing](AD_Screenshots/Audit_of_user_created.png)
+
+This screenshot then shows where the user account was "deleted"
 ![AD_Auditing](AD_Screenshots/Audit_of_user_deleted.png)
+
 In this section i enabled auditing via GPO to track logon events and account management. Event Viewer logs demonstrate successful auditing of test user creation and deletion.
 ![AD_Auditing](AD_Screenshots/Audit_Settings.png)
 
