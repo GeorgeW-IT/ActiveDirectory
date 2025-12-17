@@ -66,8 +66,18 @@ Custom security groups organized within the Groups OU for role-based access mana
 In this first GPO i created a password policy where users must follow a certain set of requirements for thier password
 ![AD GPO](AD_Screenshots/Group_Policy_Password.png)
 
+
 In this next screenshot i have created an account lockout policy for users, which is a security policy for the amount of attemps they can enter their password
 ![AD_GPO](AD_Screenshots/Group_Account_Lockout_Policy.png)
+
+
+In this next Group Policy i created a screen timeout policy for users who leave their screens on for too long without activity
+![AD_GPO](AD_Screenshots/Screen_Timeout_Policy.png)
+
+
+### Auditing
+
+In this section i enabled auditing via GPO to track logon events and account management. Event Viewer logs demonstrate successful auditing of test user creation and deletion.
 
 
 ### Domain Structure
