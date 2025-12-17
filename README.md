@@ -66,6 +66,10 @@ Custom security groups organized within the Groups OU for role-based access mana
 In this first GPO i created a password policy where users must follow a certain set of requirements for thier password
 ![AD GPO](AD_Screenshots/Group_Policy_Password.png)
 
+In this next screenshot i have created an account lockout policy for users, which is a security policy for the amount of attemps they can enter their password
+![AD_GPO](AD_Screenshots/Group_Account_Lockout_Policy.png)
+
+
 ### Domain Structure
 
 Active Directory domain structure showing OU hierarchy and user organization.
