@@ -8,7 +8,7 @@ I deployed and configured a Windows Server Active Directory environment on Azure
 - Azure Virtual Machines
 - Windows Server
 - Active Directory Domain Services (AD DS)
-- PowerShell
+- Command Line (for troubleshooting)
 
 ## Lab Setup
 
